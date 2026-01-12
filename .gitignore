@@ -37,7 +37,4 @@ outputs/
 .DS_Store
 Thumbs.db
 
-# ===== Matplotlib =====
-*.png
-*.jpg
-*.svg
+
