@@ -14,12 +14,16 @@ venv/
 env/
 ENV/
 
-# ===== Data & Models =====
+# ===== Data =====
 data/
-outputs/
+
+# ===== Model Weights (DO NOT UPLOAD) =====
 *.pt
 *.pth
 *.ckpt
+outputs/**/*.pt
+outputs/**/*.pth
+outputs/**/*.ckpt
 
 # ===== Logs & Caches =====
 *.log
@@ -36,5 +40,3 @@ outputs/
 # ===== OS =====
 .DS_Store
 Thumbs.db
-
-

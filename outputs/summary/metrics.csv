@@ -1,0 +1,4 @@
+model,accuracy,macro_f1,weighted_f1
+transformer,0.9378,0.924,0.9379
+cnn,0.9426,0.9313,0.9424
+lstm,0.9353,0.9204,0.9352
