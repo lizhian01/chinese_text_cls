@@ -1,0 +1,43 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ===== Virtual Environment =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Data & Models =====
+data/
+outputs/
+*.pt
+*.pth
+*.ckpt
+
+# ===== Logs & Caches =====
+*.log
+*.tmp
+.cache/
+.ipynb_checkpoints/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Matplotlib =====
+*.png
+*.jpg
+*.svg
