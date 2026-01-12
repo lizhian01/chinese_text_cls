@@ -48,10 +48,10 @@ pip install -r requirements-utf8.txt
 ```text
 chinese_text_cls/
 ├── data/
-│   └── thucnews_10c_200k/        # 处理后的数据（不上传）
+│   └── thucnews_10c_200k/        # 处理后的数据
 ├── outputs/
 │   ├── transformer/
-│   │   ├── best.pt               # 最优模型权重（不上传）
+│   │   ├── best.pt               # 最优模型权重
 │   │   ├── test_report.txt
 │   │   ├── confusion_matrix.png
 │   │   ├── attention_cls_bar.png
@@ -65,7 +65,7 @@ chinese_text_cls/
 │   ├── train_lstm_char.py
 │   ├── visualize_attention.py
 │   └── utils.py
-├── .venv/                        # 虚拟环境（不上传）
+├── .venv/                        # 虚拟环境
 ├── requirements.txt
 └── README.md
 ```
